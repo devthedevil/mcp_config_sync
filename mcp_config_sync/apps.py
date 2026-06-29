@@ -46,7 +46,7 @@ MCP_APPS: Dict[str, MCPApp] = {
     "cursor": MCPApp(
         name="cursor",
         display_name="Cursor",
-        config_path="~/Library/Application Support/Cursor/User/settings.json",
+        config_path="~/.cursor/mcp.json",
         description="AI-powered code editor with MCP support",
         homepage="http://cursor.com",
     ),
